@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @DraculaSlayer
 - 👀 I’m interested in python, video games
-- 🌱 I’m currently learning python, c++
+- 🌱 I’m currently learning python, c++, rust
 - 💞️ I’m looking to collaborate on Small operating system project, software for homemade hardware
 
 <!---
