@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz San Valentín, Brayan</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image: url("asset/background_brayan.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding: 50px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+        h1 {
+            color: #ff4d4d;
+        }
+        p {
+            color: #333;
+        }
+        button {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #e60000;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>¡Feliz San Valentín, Brayan!</h1>
+        <p>gracias por nunca pasarme cp cabron hijo de puta 🤝</p>
+        <button onclick="mostrarMensaje()">Manoseame 🥵</button>
+        <p id="mensaje" style="display:none; color:#ff4d4d; font-weight:bold;">aqui te dejo mi discord para que pases cp como youtuber de critica🥺</p>
+        <h4 id="fotico" style="display: none; color:#e60000; font-weight: bold;">sakil112933</h4>
+        <p id="mensaje2" style="display:none; color:#ff4d4d; font-weight:bold;">si te lo mandas a suseth le dijo a tu mama que dices groserias 😡</p>
+    </div>
+
+    <script>
+        function mostrarMensaje() {
+            document.getElementById('mensaje').style.display = 'block';
+            document.getElementById("fotico").style.display = 'block';
+            document.getElementById("mensaje2").style.display = "block";
+        }
+    </script>
+</body>
+</html>

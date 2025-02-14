@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz San Valentín, Susej</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image: url("asset/background_susej.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding: 50px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+        h1 {
+            color: #ff4d4d;
+        }
+        p {
+            color: #333;
+        }
+        button {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        img {
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            align-content: center;
+        }
+        button:hover {
+            background-color: #e60000;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>¡Feliz San Valentín, Susej!</h1>
+        <p>gracias por informarme que dios existe, ahora voy a la iglesia todolos los domingos, no termino de entrar porque me quemo</p>
+        <button onclick="mostrarMensaje()">Manoseame 🥵</button>
+        <p id="mensaje" style="display:none; color:#ff4d4d; font-weight:bold;">Padre nuestro que estas en el cielo 🙏</p>
+        <img src="asset/susej.webp" style="display: none;" id="mensaje2">
+        <p id="mensaje3" style="display:none; color:#ff4d4d; font-weight:bold;">Disculpa por no poner a dios, la ia no me dejo 😭</p>
+
+    </div>
+
+    <script>
+        function mostrarMensaje() {
+            document.getElementById('mensaje').style.display = 'block';
+            document.getElementById("mensaje2").style.display = "block"
+            document.getElementById("mensaje3").style.display = "block";
+        }
+    </script>
+</body>
+</html>

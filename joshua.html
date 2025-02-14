@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz San Valentín, Joshua</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image: url("asset/background_joshua.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding: 50px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+        h1 {
+            color: #ff4d4d;
+        }
+        p {
+            color: #333;
+        }
+        button {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #e60000;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>¡Feliz San Valentín, Joshua!</h1>
+        <p>gracias por todas las papas que me diste, al dia siguen siempre tenia diarrea 😁👍</p>
+        <button onclick="mostrarMensaje()">Manoseame 🥵</button>
+        <p id="mensaje" style="display:none; color:#ff4d4d; font-weight:bold;">cuando voy pa tu casa para jugar mortal kombat 😈</p>
+        <a id="fotico" style="display: none;" href="https://www.google.com/maps/place/Centro+Comercial+Propatria/@10.5042147,-66.9518203,20.5z/data=!4m6!3m5!1s0x8c2a5feb30d6a195:0x597712611e7b6f72!8m2!3d10.503743!4d-66.9529299!16s%2Fg%2F11lgwsrcf0?hl=es&entry=ttu&g_ep=EgoyMDI1MDIxMS4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D">Por si acaso aqui tienes el link de mi casa para que me vengas a buscar</a>
+        <p id="mensaje2" style="display:none; color:#ff4d4d; font-weight:bold;">ojala bajes de peso, esa cama tuya debe andar pariendo</p>
+    </div>
+
+    <script>
+        function mostrarMensaje() {
+            document.getElementById('mensaje').style.display = 'block';
+            document.getElementById("fotico").style.display = 'block';
+            document.getElementById("mensaje2").style.display = "block";
+        }
+    </script>
+</body>
+</html>
